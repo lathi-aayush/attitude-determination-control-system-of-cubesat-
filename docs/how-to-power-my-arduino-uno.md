@@ -1,16 +1,14 @@
-Oct 13 2025
-Tags : 
-link : link : [Power any arduino project](https://youtu.be/ewZY9oNbcds?si=LO1CGngkC8jY5ozl)
+link : [Power any arduino project](https://youtu.be/ewZY9oNbcds?si=LO1CGngkC8jY5ozl)
 ___
 #### **How Arduino Receives Power:**
-==- **Three Main Ways:**==
-    - ==**VIN Pin== / Barrel Jack:** Can accept 7–12V (sometimes slightly outside this range, depending on Arduino model). Input goes to an internal voltage regulator, converting it down to 5V.
-    - ==**USB Port==:** Provides 5V directly (bypasses voltage regulator). Used for development—allows uploading code and monitoring serial data.
-    - ==**5V Pin==:** Direct input to the board’s 5V rail, bypassing the regulator. Meant for advanced setups with stable regulated 5V supply.
+- **Three Main Ways:**
+    - **VIN Pin / Barrel Jack:** Can accept 7–12V (sometimes slightly outside this range, depending on Arduino model). Input goes to an internal voltage regulator, converting it down to 5V.
+    - **USB Port:** Provides 5V directly (bypasses voltage regulator). Used for development—allows uploading code and monitoring serial data.
+    - **5V Pin:** Direct input to the board’s 5V rail, bypassing the regulator. Meant for advanced setups with stable regulated 5V supply.
 - **Safe Dual Supply Handling:** If both VIN/barrel power and USB are connected, Arduino cuts off USB power using a P-Channel MOSFET, but USB data connectivity still works.
 
-==**Supplying Power via Arduino for Simple Projects:**==
-- For ==projects needing less than 1A and only 5V or 3.3V==, you can supply power through the board (==USB or VIN==) and distribute 5V/GND from those pins to your circuit.
+**Supplying Power via Arduino for Simple Projects:**
+- For projects needing less than 1A and only 5V or 3.3V, you can supply power through the board (USB or VIN) and distribute 5V/GND from those pins to your circuit.
 - Example: A breadboard setup with Arduino Nano, LED powered from the 5V rail.
 - **Limitations:** Most boards supply up to 1A; Nano may be rated for 800mA. Check your supply’s capacity.
 
@@ -57,4 +55,4 @@ ___
 - Solder connections for safety and reliability in final projects.
 - Double-check voltage and supply specs for your components.
 
-This summary covers concepts in detail, including practical setups, safety cautions, and multiple wiring scenarios, helping ensure any Arduino project is powered safely and efficiently.[^1_1]
+This summary covers concepts in detail, including practical setups, safety cautions, and multiple wiring scenarios, helping ensure any Arduino project is powered safely and efficiently.

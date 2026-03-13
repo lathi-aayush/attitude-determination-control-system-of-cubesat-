@@ -2,18 +2,16 @@
 Platform auto-rotates (1-axis) so the brightest LDR faces the lamp — representing Sun tracking.
 
 Why this is important system :
-- For ==power generation we need to direct our solar panels towards the sun==
-- For ==radio transmission we need to direct our telecomm towards earth==
+- For power generation we need to direct our solar panels towards the sun
+- For radio transmission we need to direct our telecomm towards earth
 
->==In the book project hail Mary, the earth in in extinction, and best way to retrieve data was to use reaction wheels==
+>In the book project hail Mary, the earth in in extinction, and best way to retrieve data was to use reaction wheels
 
 | Concept                                  | Link                                                                                  |
 | ---------------------------------------- | ------------------------------------------------------------------------------------- |
-| Components needed for reaction wheel     | [components for reaction wheel](components.md)                                        |
 | Component Technical Sheet                | [Component Technical Sheet](../assets/Component_Technical_Sheet.pdf)                  |
 | What makes the satellite rotate          | [reaction wheel theory](reaction-wheel-theory.md)                                     |
 | Physics behind reaction wheel            | [Tutorial/Theory on Reaction Wheel](https://youtu.be/zkB3eqjh_mk?si=pBcxIVd9OCK9g9aG) |
-| Pitch/Roll/Yaw definitions               | [roll / pitch / yaw definitions](roll-pitch-yaw-definitions.md)                       |
 | About the MPU6050                        | [MPU6050 notes](mpu6050-notes.md)                                                     |
 | documentation of MPU6050                 | [MPU6050 datasheet (PDF)](../assets/docs/documentation_MPU6050_light.pdf)            |
 | stablising the accelerometer and gyro    | [stabilising accelerometer and gyro](stabilising-accelerometer-and-gyro.md)          |

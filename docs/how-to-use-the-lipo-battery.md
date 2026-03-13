@@ -1,5 +1,3 @@
-Oct 13 2025
-Tags : 
 link : [lipo battery and TP4056 charging module and steup boost converted](https://youtu.be/duM1YzhYybE?si=qg8O6QJIqB77z1fU)
 ___
 
@@ -13,13 +11,13 @@ ___
 1. **Constant current mode:** Battery is charged at a current equal to its capacity (1C; e.g., a 40mAh battery charged at 40mA).
 2. **Constant voltage mode:** Once 4.2V is reached, current decreases until battery is fully charged.
     - Warns against using unregulated power supplies due to explosion risk—always use appropriate chargers.
-==- **TP4056 Charging Board:**==
+- **TP4056 Charging Board:**
     - A cheap, off-the-shelf solution for both charging and protecting LiPo batteries.
     - Features: Overcharge, over-discharge, circuit, and over-current protection.
     - Charge current can be set by changing a resistor; example calculation provides safer charge rates tailored to battery size.
     - Visualizes transition between charging modes and verifies that the board will cut off output when voltage drops below 3V.
     - Can be used to **charge and power circuits simultaneously** (perfect for most AVR microcontrollers if voltage range matches).
-==- **Boost Converters:**==
+- **Boost Converters:**
     - If your component requires a stable 5V (outside the direct range of LiPo cells), use a boost converter to raise the battery voltage.
     - There are expensive all-in-one charger/boost boards (like Adafruit’s PowerBoost), but cheaper solutions suffice for most makers.
     - Important note: Multi-cell LiPo packs need cell balancing—a more advanced topic not covered in this video.
@@ -37,5 +35,5 @@ ___
 - Use proper charger boards (such as the TP4056) and protection circuits to prevent overcharge/discharge and accidents.
 - For projects needing fixed output voltages (like 5V), use boost converters.
 - DIY solutions for charging and protection are possible but more error-prone—standard modules are safer for beginners.
-- Understanding battery safety and charging methods is critical for successful portable electronics projects.[^1_1]
+- Understanding battery safety and charging methods is critical for successful portable electronics projects.
 

@@ -1,15 +1,14 @@
-See also: [components for reaction wheel](components.md)
-A reaction wheel is a type of electrically driven flywheel used mainly in spacecraft and satellites for precise attitude (orientation) control. By accelerating or decelerating the rotation of the wheel, a spacecraft can be made to rotate in the opposite direction, thanks to the conservation of angular momentum.
 
 ### What is a Reaction Wheel?
 
+- A reaction wheel is a type of electrically driven flywheel used mainly in spacecraft and satellites for precise attitude (orientation) control. By accelerating or decelerating the rotation of the wheel, a spacecraft can be made to rotate in the opposite direction, thanks to the conservation of angular momentum.
 - A reaction wheel is an electric motor attached to a rotating mass (flywheel), typically arranged along an axis inside the satellite or spacecraft.
 - When the wheel spins faster, the spacecraft responds by rotating in the reverse direction about the same axis; slowing the wheel has the opposite effect.
 
 ## Scientific Theory Behind Reaction Wheels
 source : [Tutorial/Theory on Reaction Wheel](https://youtu.be/zkB3eqjh_mk?si=pBcxIVd9OCK9g9aG)
 
-A reaction wheel operates on the ==**conservation of angular momentum**==. In the ==absence of external torques, the total angular momentum of a closed system (here: the spacecraft plus the internal flywheel) remains constant.==
+A reaction wheel operates on the **conservation of angular momentum**. In the absence of external torques, the total angular momentum of a closed system (here: the spacecraft plus the internal flywheel) remains constant.
 
 ## Key Scientific Concepts:
 

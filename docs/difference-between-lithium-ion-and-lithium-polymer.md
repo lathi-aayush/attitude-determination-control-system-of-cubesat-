@@ -1,6 +1,4 @@
-Oct 13 2025
-Tags : 
-link : [Lithium-ion vs Lithium-polymer](https://youtu.be/wqL3ZT26i4c?si=TfqH25SvczEcMQOs)
+Reference link : [Lithium-ion vs Lithium-polymer](https://youtu.be/wqL3ZT26i4c?si=TfqH25SvczEcMQOs)
 ___
 ### What's the difference between Lithium-ion and lithium polymer 
 
@@ -35,4 +33,4 @@ ___
 **Key Point:**  
 Li-ion is cheaper, has higher energy density, and lasts longer, but is more prone to damage and overheating. Li-Po is safer, lighter, and more customizable, but more expensive and has a shorter life and lower energy density. The video briefly lists differences on parameters like aging, energy density, safety, cost, weight, and charging duration.​
 
-![[Lithium ion vs Lithium Polymer Battery.png]]
+![Lithium Ion vs Lithium Polymer](diagrams/Lithium ion vs Lithium Polymer Battery.png)
