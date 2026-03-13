@@ -20,4 +20,4 @@
 
 ---
 ## Project Photo
-![[diagrams/aarambhsat_cubesat.jpg]]
+![diagrams/aarambhsat_cubesat.jpg]
