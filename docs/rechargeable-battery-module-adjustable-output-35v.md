@@ -1,4 +1,4 @@
-![Battery Module](diagrams/battery_module.jpg)
+![Battery Module](../diagrams/battery_module.jpg)
 # 🔋 **Battery Module**
 
 ## **1. Components**
