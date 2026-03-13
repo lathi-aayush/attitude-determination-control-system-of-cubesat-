@@ -2,9 +2,10 @@
 ---
 ## Project Demonstration
 
-![CubeSat ADCS Demonstration]([https://www.youtube.com/watch?v=VIDEO_ID](https://youtube.com/shorts/zyfqgwbhBwY?feature=share))
+[![CubeSat ADCS Demo](https://img.youtube.com/vi/zyfqgwbhBwY/0.jpg)](https://youtube.com/shorts/zyfqgwbhBwY)
 
-Watch the demonstration of the CubeSat Attitude Determination and Control System prototype.
+Click the thumbnail above to watch the prototype demonstration of the CubeSat Attitude Determination and Control System.
+
 ---
 ## Significance of ADCS 
 • ADCS keeps the satellite <mark style="background: #BBFABBA6;">stable and correctly oriented </mark> <br>
