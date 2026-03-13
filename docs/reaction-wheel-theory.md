@@ -1,12 +1,15 @@
+![Reaction Wheel Diagram](diagrams/reaction-wheel-diagram-2.png)
+---
 
-### What is a Reaction Wheel?
+Reference Link : [Tutorial/Theory on Reaction Wheel](https://youtu.be/zkB3eqjh_mk?si=pBcxIVd9OCK9g9aG)
+
+## What is a Reaction Wheel?
 
 - A reaction wheel is a type of electrically driven flywheel used mainly in spacecraft and satellites for precise attitude (orientation) control. By accelerating or decelerating the rotation of the wheel, a spacecraft can be made to rotate in the opposite direction, thanks to the conservation of angular momentum.
 - A reaction wheel is an electric motor attached to a rotating mass (flywheel), typically arranged along an axis inside the satellite or spacecraft.
 - When the wheel spins faster, the spacecraft responds by rotating in the reverse direction about the same axis; slowing the wheel has the opposite effect.
 
 ## Scientific Theory Behind Reaction Wheels
-source : [Tutorial/Theory on Reaction Wheel](https://youtu.be/zkB3eqjh_mk?si=pBcxIVd9OCK9g9aG)
 
 A reaction wheel operates on the **conservation of angular momentum**. In the absence of external torques, the total angular momentum of a closed system (here: the spacecraft plus the internal flywheel) remains constant.
 
@@ -22,7 +25,7 @@ A reaction wheel operates on the **conservation of angular momentum**. In the a
     
 
 Mathematically, 
-![Conservation of Angular Momentum](diagram/conservation of angular momentom in reaction wheel.png)
+![Conservation of Angular Momentum](diagram/conservation-of-angular-momentom-in-reaction-wheel.png)
 This is the core scientific principle behind how reaction wheels control a spacecraft's orientation.
 
 ### Purpose and Applications
@@ -42,9 +45,7 @@ In hobby and educational projects, like the Arduino MPU6050 model found on Print
 
 ---
 
-![Reaction Wheel Diagram](diagrams/reaction wheel diagram 2.png)
-
-![Reaction Wheel Diagram](diagrams/reaction wheel diagram.png)
+![Reaction Wheel Diagram](diagrams/reaction-wheel-diagram.png)
 
 ---
 

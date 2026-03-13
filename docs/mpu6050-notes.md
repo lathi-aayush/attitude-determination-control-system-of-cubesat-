@@ -9,7 +9,7 @@ It combines:
 
 This gives you **6-DOF orientation data**, which is enough for basic attitude determination.
 
----
-![MPU-6050](MPU6050-Axes.png)
 
-[MPU-6050 documentation (PDF)](../assets/docs/documentation_MPU6050_light.pdf)
+![MPU-6050](diagrams/MPU6050-Axes.png)
+
+![MPU-6050 documentation (PDF)](assets/documentation_MPU6050_light.pdf)

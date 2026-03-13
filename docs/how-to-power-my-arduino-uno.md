@@ -1,4 +1,4 @@
-link : [Power any arduino project](https://youtu.be/ewZY9oNbcds?si=LO1CGngkC8jY5ozl)
+Reference link : [Power any arduino project](https://youtu.be/ewZY9oNbcds?si=LO1CGngkC8jY5ozl)
 ___
 #### **How Arduino Receives Power:**
 - **Three Main Ways:**

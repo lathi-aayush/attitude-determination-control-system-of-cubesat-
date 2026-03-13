@@ -1,5 +1,5 @@
-![Battery module](battery_module.jpg)
-# 🔋 **Battery Module (Summary)**
+![Battery Module](diagram/battery_module.jpg)
+# 🔋 **Battery Module**
 
 ## **1. Components**
 
@@ -11,7 +11,6 @@
     
 - **Switch:** between battery power line
     
-
 ---
 
 ## **2. Wiring**
@@ -123,4 +122,4 @@ XL6009 OUT– → GND
 - Arduino powered reliably
     
 
-**Battery module complete and functional.** cg 
+**Battery module complete and functional.** 

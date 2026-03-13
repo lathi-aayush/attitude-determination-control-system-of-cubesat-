@@ -22,18 +22,21 @@
 ## Project Photo
 ![AarambhSat](diagrams/aarambhsat_cubesat.jpg)
 
-## References 
-KIBOCUBE Academy
 
-## Project structure
-- `docs/` – theory, notes, and design decisions
-- `hardware/` – schematics and 3D models
-- `firmware/` – Arduino / embedded code for the controller
-
-## Quick start
-1. Open `firmware/attitude-controller` in Arduino IDE or PlatformIO.
-2. Flash to Arduino Uno.
-3. See `docs/making-the-attitude-system.md` for wiring and setup.
-
-## References
-See `references/links.md` for tutorials, datasheets, and background reading.
+| Concept                                  | Link                                                                                  |
+| ---------------------------------------- | ------------------------------------------------------------------------------------- |
+| Component Technical Sheet                | [Component Technical Sheet](assets/Component_Technical_Sheet.pdf)                  |
+| What makes the satellite rotate          | [reaction wheel theory](reaction-wheel-theory.md)                                     |
+| Physics behind reaction wheel            | [Tutorial/Theory on Reaction Wheel](https://youtu.be/zkB3eqjh_mk?si=pBcxIVd9OCK9g9aG) |
+| About the MPU6050                        | [MPU6050 notes](docs/mpu6050-notes.md)                                                     |
+| documentation of MPU6050                 | [MPU6050 datasheet (PDF)](assets/docs/documentation_MPU6050_light.pdf)            |
+| stablising the accelerometer and gyro    | [stabilising accelerometer and gyro](docs/stabilising-accelerometer-and-gyro.md)          |
+| failing motor threshold issue            | [motor threshold error debugging](docs/motor-threshold-error-debugging.md)                 |
+| Lipo battery connections                 | [how to use the LiPo battery](docs/how-to-use-the-lipo-battery.md)                        |
+| difference between li-ion and li-polymer | [difference between lithium-ion and lithium-polymer](docs/difference-between-lithium-ion-and-lithium-polymer.md) |
+| powering my arduino                      | [how to power my Arduino Uno](docs/how-to-power-my-arduino-uno.md)                        |
+| Cube sat Battery Module                  | [rechargeable battery module](docs/rechargeable-battery-module-adjustable-output-35v.md)   |
+| Schematic Connection diagram             | ![AarambhSat schematic](hardware/schematics/AarambhSat-block-diagram.png)         |
+| 3D model diagram                         | ![3D model – side view](hardware/cad/3D_model_side_aarambhsat.jpg)                |
+|                                          | ![3D model – back view](hardware/cad/3D_model_back_aarambhsat.jpg)                |
+|                                          | ![3D model – front view](hardware/cad/3D_model_front_aarambhsat.jpg)              |

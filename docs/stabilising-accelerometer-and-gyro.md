@@ -42,7 +42,3 @@ This blends the fast gyroscope with stable accelerometer → smooth + accurate r
     
 4. Tilt your CubeSat → you’ll see **smooth roll variation** between roughly -90° to +90°.
     
-
----
-
-Would you like me to extend this code to include **PID control** for your **reaction wheel motor** next (so your CubeSat auto-stabilizes its roll)?
