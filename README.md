@@ -1,5 +1,11 @@
 # AarambhSat – Attitude Direction and Control System
 ---
+## Project Demonstration
+
+![CubeSat ADCS Demonstration]([https://www.youtube.com/watch?v=VIDEO_ID](https://youtube.com/shorts/zyfqgwbhBwY?feature=share))
+
+Watch the demonstration of the CubeSat Attitude Determination and Control System prototype.
+---
 ## Significance of ADCS 
 • ADCS keeps the satellite <mark style="background: #BBFABBA6;">stable and correctly oriented </mark> <br>
 • It helps point solar panels towards the Sun  
