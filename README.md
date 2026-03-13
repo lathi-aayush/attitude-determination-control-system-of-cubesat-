@@ -29,7 +29,7 @@
 | What makes the satellite rotate          | [Reaction Wheel Theory](docs/reaction-wheel-theory.md)                                     |
 | Physics behind reaction wheel            | [Tutorial/Theory on Reaction Wheel](https://youtu.be/zkB3eqjh_mk?si=pBcxIVd9OCK9g9aG) |
 | About the MPU6050                        | [MPU6050 notes](docs/mpu6050-notes.md)                                                     |
-| documentation of MPU6050                 | [MPU6050 datasheet (PDF)](assets/docs/documentation_MPU6050_light.pdf)            |
+| documentation of MPU6050                 | [MPU6050 datasheet (PDF)](../assets/docs/documentation_MPU6050_light.pdf)            |
 | stablising the accelerometer and gyro    | [Stabilising Accelerometer and Gyro](docs/stabilising-accelerometer-and-gyro.md)          |
 | failing motor threshold issue            | [Motor threshold Error debugging](docs/motor-threshold-error-debugging.md)                 |
 | Lipo battery connections                 | [How to use the LiPo battery](docs/how-to-use-the-lipo-battery.md)                        |
