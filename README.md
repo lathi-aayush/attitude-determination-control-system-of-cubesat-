@@ -29,7 +29,6 @@ KIBOCUBE Academy
 - `docs/` – theory, notes, and design decisions
 - `hardware/` – schematics and 3D models
 - `firmware/` – Arduino / embedded code for the controller
-- `experiments/` – calibration, debugging, and logs
 
 ## Quick start
 1. Open `firmware/attitude-controller` in Arduino IDE or PlatformIO.
