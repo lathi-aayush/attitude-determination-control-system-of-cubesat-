@@ -26,7 +26,7 @@
 | Concept                                  | Link                                                                                  |
 | ---------------------------------------- | ------------------------------------------------------------------------------------- |
 | Component Technical Sheet                | [Component Technical Sheet](assets/Component_Technical_Sheet.pdf)                  |
-| What makes the satellite rotate          | [reaction wheel theory](reaction-wheel-theory.md)                                     |
+| What makes the satellite rotate          | [reaction wheel theory](docs/reaction-wheel-theory.md)                                     |
 | Physics behind reaction wheel            | [Tutorial/Theory on Reaction Wheel](https://youtu.be/zkB3eqjh_mk?si=pBcxIVd9OCK9g9aG) |
 | About the MPU6050                        | [MPU6050 notes](docs/mpu6050-notes.md)                                                     |
 | documentation of MPU6050                 | [MPU6050 datasheet (PDF)](assets/docs/documentation_MPU6050_light.pdf)            |
