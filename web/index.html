@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AarambhSat ADCS – Control</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>AarambhSat ADCS</h1>
+      <p class="tagline">Attitude Determination & Control – Exhibition Control</p>
+    </header>
+
+    <section class="connection-panel card">
+      <h2>Bluetooth</h2>
+      <div class="connection-row">
+        <select id="portSelect" aria-label="Serial port">
+          <option value="">Select port…</option>
+        </select>
+        <button type="button" id="btnRefreshPorts" title="Refresh port list">Refresh</button>
+        <button type="button" id="btnConnect" class="primary">Connect</button>
+        <button type="button" id="btnDisconnect">Disconnect</button>
+      </div>
+      <p id="connectionStatus" class="status" aria-live="polite">Disconnected</p>
+    </section>
+
+    <section class="telemetry-panel card">
+      <h2>Status</h2>
+      <div class="telemetry-grid">
+        <div class="telem-item">
+          <span class="label">Connection</span>
+          <span id="wsStatus" class="value">—</span>
+        </div>
+        <div class="telem-item">
+          <span class="label">Orientation</span>
+          <span id="angle" class="value">—</span>
+        </div>
+        <div class="telem-item">
+          <span class="label">Mode</span>
+          <span id="mode" class="value">—</span>
+        </div>
+        <div class="telem-item">
+          <span class="label">System</span>
+          <span id="systemStatus" class="value">—</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="command-panel card">
+      <h2>Command</h2>
+      <p class="hint">Examples: <code>right_90</code>, <code>left_90</code>, <code>hold 2</code>, <code>auto</code>, <code>right_90, hold 2, left_90</code></p>
+      <div class="command-row">
+        <input type="text" id="commandInput" placeholder="e.g. right_90, hold 2, left_90" autocomplete="off">
+        <button type="button" id="btnSend" class="primary">Send</button>
+        <button type="button" id="btnStop" class="danger">Stop</button>
+      </div>
+    </section>
+
+    <section class="sequence-panel card">
+      <h2>Current sequence</h2>
+      <p id="sequenceSummary" class="muted">No sequence running.</p>
+      <ul id="sequenceList"></ul>
+      <p id="executingStep" class="executing"></p>
+    </section>
+
+    <footer>
+      <p>AarambhSat – CubeSat ADCS prototype. Control via Bluetooth.</p>
+    </footer>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
