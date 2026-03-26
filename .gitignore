@@ -1,4 +1,16 @@
+node_modules/
+.screenshots/
+web/dist/
+web/.vite/
+
+.env
+.env.*
+!.env.example
+
+other resource attitude-determination-control-system-of-cubesat/
+
 hardware/cad/final_aarambhsat.zip
 hardware/schematics/schematic_aarambhsat.png
 hardware/datasheets/
 docs/future-scope.md
+stitch/

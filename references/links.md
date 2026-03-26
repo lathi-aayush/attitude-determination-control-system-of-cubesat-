@@ -1,5 +1,10 @@
 # References and Links
 
+## Exhibition software (Bluetooth bridge, protocol)
+
+- **Architecture, WebSocket flow, serial protocol (copied from local resource pack)**  
+  `../docs/exhibition/ARCHITECTURE.md` · `../docs/exhibition/WEBSOCKET_FLOW.md` · `../docs/exhibition/PROTOCOL.md`
+
 ## Reaction wheel and attitude control
 
 - **Tutorial/Theory on Reaction Wheel (YouTube)**  
