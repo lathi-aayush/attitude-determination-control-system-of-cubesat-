@@ -7,10 +7,10 @@ web/.vite/
 .env.*
 !.env.example
 
-other resource attitude-determination-control-system-of-cubesat/
+
 
 hardware/cad/final_aarambhsat.zip
-hardware/schematics/schematic_aarambhsat.png
+hardware/schematics/AarambhSat-schematic-diagram.pdf
 hardware/datasheets/
 docs/future-scope.md
 stitch/
