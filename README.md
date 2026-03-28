@@ -40,7 +40,7 @@
 | Lipo battery connections                 | [How to use the LiPo battery](docs/how-to-use-the-lipo-battery.md)                        |
 | difference between li-ion and li-polymer | [Difference between lithium-ion and lithium-polymer](docs/difference-between-lithium-ion-and-lithium-polymer.md) |
 | powering my arduino                      | [How to power my Arduino Uno](docs/how-to-power-my-arduino-uno.md)                        |
-| CLI commands (exhibition & simulation)   | [AarambhSat CLI Commands](docs/CLI_commands.md)                                         |
+| CLI commands    | [AarambhSat CLI Commands](docs/CLI_commands.md)                                         |
 | 3D model diagram                         | ![3D model – side view](hardware/cad/3D_model_side_aarambhsat.jpg)                |
 |                                          | ![3D model – back view](hardware/cad/3D_model_back_aarambhsat.jpg)                |
 |                                          | ![3D model – front view](hardware/cad/3D_model_front_aarambhsat.jpg)              |
