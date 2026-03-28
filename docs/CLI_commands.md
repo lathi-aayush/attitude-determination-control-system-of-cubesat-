@@ -1,7 +1,7 @@
 # AarambhSat CLI Commands
 
 ## Project Photo
-![Website Aarambhsat](diagrams/website_project_page.png)
+![Website Aarambhsat](../diagrams/website_project_page.png)
 ---
 ### List of Commands
 
